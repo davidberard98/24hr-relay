@@ -3,6 +3,7 @@
 #include <QFrame>
 #include <QLabel>
 #include <ctime>
+#include <chrono>
 
 class totalTime : public QFrame
 {
@@ -14,7 +15,7 @@ class totalTime : public QFrame
 	
 	public:
 	totalTime(QWidget *parent = 0);
-	increment()
+	void increment();
 	
 	
 	

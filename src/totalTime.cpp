@@ -11,3 +11,9 @@ totalTime::totalTime(QWidget *parent) : QFrame(parent)
 	
 	
 }
+
+void totalTime::increment()
+{
+	
+	
+}
