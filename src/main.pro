@@ -13,3 +13,7 @@ QMAKE_CXXFLAGS += -std=c++11
 # Input
 SOURCES += main.cpp
 SOURCES += timesDisplay.cpp
+SOURCES += totalTime.cpp
+
+HEADERS += timesDisplay.h
+HEADERS += totalTime.h
